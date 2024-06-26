@@ -107,16 +107,28 @@ overflow: hidden;
     width: 20px;
     height: 20px;
   }
+  .card-wrapper .card h5{
+    font-size: 16px;
+  }
 }
 
 @media (max-width:902px) {
   .navicon img{
     display: none;
   }
+  .card-wrapper .card h5{
+    font-size: 14px;
+  }
 }
 @media (max-width:608px) {
   .logo{
 display: none;
+  }
+  .card-wrapper .card h5{
+    font-size: 12px;
+  }
+  .radiobtn{
+    display: none;
   }
 }
 @media (max-width:423px) {
@@ -125,6 +137,9 @@ display: none;
   }
   .btn-group .btn{
 
+    font-size: 10px;
+  }
+  .card-wrapper .card button{
     font-size: 10px;
   }
 
@@ -146,3 +161,16 @@ background-color: #f3f3f3;
   background-color: #f9f9f932;
   color: black;
   }
+.card-wrapper img{
+  padding-left: 6vw;
+  padding-right: 6vw;
+  margin-top: 2vw;
+}
+.card-wrapper .card{
+  height: 80vh;
+  background-color: #f8f8f8;
+}
+.card-wrapper .card button{
+  border-radius: 10%;
+  margin-top: 5vh;
+}
