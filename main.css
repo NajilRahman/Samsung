@@ -114,19 +114,24 @@ overflow: hidden;
     display: none;
   }
 }
-
-
+@media (max-width:608px) {
+  .logo{
+display: none;
+  }
+}
 @media (max-width:423px) {
   .logo{
-    display: none;
+display: none;
   }
   .btn-group .btn{
 
     font-size: 10px;
   }
+
 }
 .btn-group .btn:hover{
 border-bottom: 3px solid black;
+background-color: #f3f3f3;
 }
 .hibtn{
   font-weight: 700;
@@ -137,5 +142,7 @@ border-bottom: 3px solid black;
   font-size: 18px;
 }
 .mobilebtns .btn:hover{
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  background-color: #f9f9f932;
+  color: black;
   }
