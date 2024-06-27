@@ -167,7 +167,7 @@ background-color: #f3f3f3;
   margin-top: 2vw;
 }
 .card-wrapper .card{
-  height: 80vh;
+  height: max-content;
   background-color: #f8f8f8;
 }
 .card-wrapper .card button{
